@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "end to end",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "lineNo": 3,
+        "name": "TestAdidas",
+        "referece": "scenarios/TestAdidas.bdd",
+        "sign": "scenarios.TestAdidas.bdd.TestAdidas()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519289759620,
+      "duration": 35858,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

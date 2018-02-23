@@ -1,0 +1,3 @@
+icon.adidas = {\"locator\":\"//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_feed']\",\"desc\":\"adidas feed icon\"}
+searchicon.adidas = {\"locator\":\"//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']\",\"desc\":\"adidas search icon\"}
+profileicon.adidas = {\"locator\":\"//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_profile']\",\"desc\":\"adidas profileicon\"}

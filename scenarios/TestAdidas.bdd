@@ -1,0 +1,19 @@
+
+
+SCENARIO: TestAdidas
+META-DATA: {"description":"end to end","groups":["P1","P2","SMOKE"]}
+	Given User is on homepage
+	When click on search icon
+	And searchproduct by gender as a "MEN"
+	And searchproduct by purpose as a "Originals"
+	And select the "1" from productlist
+	Then user should see the selected product details
+	And click on buy button
+	And select the size of the product as"8"
+	And click on Add to cart bag
+	And click on add to cart icon
+	Then verify that searchprod is added to cart
+
+	
+	
+END

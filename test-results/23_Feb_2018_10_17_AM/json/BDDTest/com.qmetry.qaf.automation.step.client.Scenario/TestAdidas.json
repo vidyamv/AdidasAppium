@@ -1,0 +1,884 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "verifyHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+          ],
+          "result": "[id: 1]",
+          "subLogs": [],
+          "duration": 1055
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 902
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 346
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 456
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 414
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickSearchIcon",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 891
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "searchProductByAgeGender",
+      "args": [
+        "[MEN]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.adidas.app:id/productCategoryClickableArea, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 1408
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.adidas.app:id/productCategoryClickableArea",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 352
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='MEN'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 342
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='MEN'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 393
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='MEN'], using=xpath}"
+          ],
+          "result": "[id: 6]",
+          "subLogs": [],
+          "duration": 2718
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='MEN'], using=xpath}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 345
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='MEN']",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 3206
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "searchProductByPurpose",
+      "args": [
+        "[Originals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 2559
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 89
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 73
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 48
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 62
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 50
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 64
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 59
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 76
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 56
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 45
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 83
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 45
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "[id: 8]",
+          "subLogs": [],
+          "duration": 1709
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+          ],
+          "result": "id: 9",
+          "subLogs": [],
+          "duration": 62
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Originals']",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 162
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectTheProductFromProductlist",
+      "args": [
+        "[1]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 272
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 394
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 323
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 280
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 280
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 323
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+          ],
+          "result": "[id: 10, id: 11, id: 12, id: 13]",
+          "subLogs": [],
+          "duration": 547
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view']",
+            "{\"using\":\"xpath\",\"id\":\"11\",\"value\":\"//android.widget.TextView[@resource-id='com.adidas.app:id/product_name_text']\"}"
+          ],
+          "result": "findChildElements:[id: 14]",
+          "subLogs": [],
+          "duration": 55
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+          ],
+          "result": "[id: 15, id: 16, id: 17, id: 18]",
+          "subLogs": [],
+          "duration": 92
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view']",
+            "{\"using\":\"xpath\",\"id\":\"16\",\"value\":\"//android.widget.TextView[@resource-id='com.adidas.app:id/product_name_text']\"}"
+          ],
+          "result": "findChildElement:id: 19",
+          "subLogs": [],
+          "duration": 69
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.adidas.app:id/product_name_text']",
+            "{\"id\":\"19\"}"
+          ],
+          "result": "getElementText:EQT BASKETBALL ADV SHOES",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+          ],
+          "result": "[id: 20, id: 21, id: 22, id: 23]",
+          "subLogs": [],
+          "duration": 115
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view']",
+            "{\"using\":\"xpath\",\"id\":\"21\",\"value\":\"//android.widget.TextView[@resource-id='com.adidas.app:id/product_name_price']\"}"
+          ],
+          "result": "findChildElement:id: 24",
+          "subLogs": [],
+          "duration": 55
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.adidas.app:id/product_name_price']",
+            "{\"id\":\"24\"}"
+          ],
+          "result": "getElementText:$120.00",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+          ],
+          "result": "[id: 25, id: 26, id: 27, id: 28]",
+          "subLogs": [],
+          "duration": 102
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view']",
+            "{\"using\":\"xpath\",\"id\":\"26\",\"value\":\"//android.widget.TextView[@resource-id='com.adidas.app:id/product_name_text']\"}"
+          ],
+          "result": "findChildElement:id: 29",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.adidas.app:id/product_name_text']",
+            "{\"id\":\"29\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1530
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyProductDetails",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnBuyButton",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.adidas.app:id/buy_button, using=id}"
+          ],
+          "result": "[id: 30]",
+          "subLogs": [],
+          "duration": 360
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.adidas.app:id/buy_button, using=id}"
+          ],
+          "result": "id: 31",
+          "subLogs": [],
+          "duration": 811
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.adidas.app:id/buy_button",
+            "{\"id\":\"31\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 277
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectTheSizeOfTheProductAs",
+      "args": [
+        "[8]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='8'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 242
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='8'], using=xpath}"
+          ],
+          "result": "[id: 32]",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='8'], using=xpath}"
+          ],
+          "result": "id: 33",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='8']",
+            "{\"id\":\"33\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 283
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnAddToCartBag",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.adidas.app:id/button_add_to_bag, using=id}"
+          ],
+          "result": "id: 34",
+          "subLogs": [],
+          "duration": 860
+        },
+        {
+          "commandName": "isElementEnabled",
+          "args": [
+            "By.id: com.adidas.app:id/button_add_to_bag",
+            "{\"id\":\"34\"}"
+          ],
+          "result": "isElementEnabled:true",
+          "subLogs": [],
+          "duration": 231
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.adidas.app:id/button_add_to_bag, using=id}"
+          ],
+          "result": "id: 35",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.adidas.app:id/button_add_to_bag",
+            "{\"id\":\"35\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 376
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnAddToCartIcon",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/child_fragment_container'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 403 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f68b481b-518f-47f2-b22f-13615c37a57c\n*** Element info: {Using=xpath, value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/child_fragment_container']}",
+          "subLogs": [],
+          "duration": 405
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/child_fragment_container'], using=xpath}"
+          ],
+          "result": "id: 36",
+          "subLogs": [],
+          "duration": 649
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/child_fragment_container']",
+            "{\"id\":\"36\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 519
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyThatSearchprodIsAddedToCart",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/child_fragment_container'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 710 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f68b481b-518f-47f2-b22f-13615c37a57c\n*** Element info: {Using=xpath, value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/child_fragment_container']}",
+          "subLogs": [],
+          "duration": 710
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/child_fragment_container'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 179 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f68b481b-518f-47f2-b22f-13615c37a57c\n*** Element info: {Using=xpath, value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/child_fragment_container']}",
+          "subLogs": [],
+          "duration": 179
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/child_fragment_container'], using=xpath}"
+          ],
+          "result": "id: 37",
+          "subLogs": [],
+          "duration": 2220
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/child_fragment_container']",
+            "{\"id\":\"37\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 289
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User is on homepage",
+      "type": "TestStepPass",
+      "duration": 16001,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: &lt;true&gt;\n     Actual: was &lt;true&gt;",
+          "type": "Pass",
+          "screenshot": "test-results/23_Feb_2018_10_17_AM/img/TestAdidas_ck2mtpc0nos642473.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When click on search icon",
+      "type": "TestStepPass",
+      "duration": 1306,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And searchproduct by gender as a \"MEN\"",
+      "type": "TestStepPass",
+      "duration": 10779,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And searchproduct by purpose as a \"Originals\"",
+      "type": "TestStepPass",
+      "duration": 23559,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And select the \"1\" from productlist",
+      "type": "TestStepPass",
+      "duration": 10568,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should see the selected product details",
+      "type": "TestStepPass",
+      "duration": 2234,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a string containing \"EQT BASKETBALL ADV SHOES\"\n     Actual: was \"EQT BASKETBALL ADV SHOES\"",
+          "type": "Pass",
+          "screenshot": "test-results/23_Feb_2018_10_17_AM/img/TestAdidas_z8r3b0cr9dke42474.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"$120.00\"\n     Actual: was \"$120.00\"",
+          "type": "Pass",
+          "screenshot": "test-results/23_Feb_2018_10_17_AM/img/TestAdidas_1in6spaujtacd42475.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And click on buy button",
+      "type": "TestStepPass",
+      "duration": 1450,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And select the size of the product as\"8\"",
+      "type": "TestStepPass",
+      "duration": 1628,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on Add to cart bag",
+      "type": "TestStepPass",
+      "duration": 1498,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on add to cart icon",
+      "type": "TestStepPass",
+      "duration": 2579,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify that searchprod is added to cart",
+      "type": "TestStepPass",
+      "duration": 7648,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a string containing \"EQT BASKETBALL ADV SHOES\"\n     Actual: was \"EQT BASKETBALL ADV SHOES\"",
+          "type": "Pass",
+          "screenshot": "test-results/23_Feb_2018_10_17_AM/img/TestAdidas_pjhuptxjrb8g42476.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"$120.00\"\n     Actual: was \"$120.00\"",
+          "type": "Pass",
+          "screenshot": "test-results/23_Feb_2018_10_17_AM/img/TestAdidas_12gf5h7ozz7jx42477.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

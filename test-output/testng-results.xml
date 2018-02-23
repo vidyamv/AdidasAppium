@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>User is on homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/testAdidas_ire5j3a03k0817043.png" target="_blank">[View Screenshot]</a> </div></div><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/testAdidas_qh2sle48i75x17044.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>searchproduct by gender as a 'MEN'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>searchproduct by purpose as a 'Originals'</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42735" started-at="2018-02-23T06:06:21Z" finished-at="2018-02-23T06:07:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42735" started-at="2018-02-23T06:06:21Z" finished-at="2018-02-23T06:07:03Z">
+      <class name="com.adidas.script.AdidasTest">
+        <test-method status="PASS" signature="testAdidas()[pri:0, instance:com.adidas.script.AdidasTest@2f01783a]" name="testAdidas" duration-ms="42695" started-at="2018-02-23T11:36:21Z" finished-at="2018-02-23T11:37:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>User is on homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/testAdidas_ire5j3a03k0817043.png" target="_blank">[View Screenshot]</a> </div></div><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/testAdidas_qh2sle48i75x17044.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>searchproduct by gender as a 'MEN'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>searchproduct by purpose as a 'Originals'</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAdidas -->
+      </class> <!-- com.adidas.script.AdidasTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

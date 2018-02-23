@@ -1,0 +1,407 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 1220
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 1007
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 1426
+    },
+    {
+      "commandName": "isElementEnabled",
+      "args": [
+        "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']",
+        "{\"id\":\"2\"}"
+      ],
+      "result": "isElementEnabled:true",
+      "subLogs": [],
+      "duration": 442
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+      ],
+      "result": "id: 3",
+      "subLogs": [],
+      "duration": 492
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']",
+        "{\"id\":\"3\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 1705
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=com.adidas.app:id/productCategoryClickableArea, using=id}"
+      ],
+      "result": "id: 4",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.id: com.adidas.app:id/productCategoryClickableArea",
+        "{\"id\":\"4\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 100
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=com.adidas.app:id/productCategoryClickableArea, using=id}"
+      ],
+      "result": "[id: 5]",
+      "subLogs": [],
+      "duration": 78
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=com.adidas.app:id/productCategoryClickableArea, using=id}"
+      ],
+      "result": "id: 6",
+      "subLogs": [],
+      "duration": 42
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: com.adidas.app:id/productCategoryClickableArea",
+        "{\"id\":\"6\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 165
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.TextView[@text='MEN'], using=xpath}"
+      ],
+      "result": "id: 7",
+      "subLogs": [],
+      "duration": 2442
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //android.widget.TextView[@text='MEN']",
+        "{\"id\":\"7\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 3304
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 145
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 122
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 114
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 106
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 110
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 119
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 87
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 114
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 134
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 104
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 91
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 78
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 115
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 107
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 92
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 85
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 83
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 108
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 96
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 78
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 96
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 84
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 89
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 95
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 94
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 107
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 88
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 121
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.TextView[@text='%s'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 85
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: &lt;true&gt;\n     Actual: was &lt;true&gt;",
+      "type": "Pass",
+      "screenshot": "../img/testAdidas_1i94lt43w4xwj62414.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Timed out after 30 seconds: Wait time out for purpose on searchpage to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: driver.version: unknown",
+      "type": "Fail",
+      "screenshot": "../img/testAdidas_9yx8spjugdus62415.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for purpose on searchpage to be visible\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:475)\r\n\tat com.adidas.pages.AgeorGenderfilterTestPage.searchProductByPurpose(AgeorGenderfilterTestPage.java:54)\r\n\tat com.adidas.script.AdidasTest.testAdidas(AdidasTest.java:26)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

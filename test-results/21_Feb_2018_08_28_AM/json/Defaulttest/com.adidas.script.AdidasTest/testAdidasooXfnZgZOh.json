@@ -1,0 +1,203 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 825
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 1657
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 1815
+    },
+    {
+      "commandName": "isElementEnabled",
+      "args": [
+        "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']",
+        "{\"id\":\"2\"}"
+      ],
+      "result": "isElementEnabled:true",
+      "subLogs": [],
+      "duration": 1985
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+      ],
+      "result": "id: 3",
+      "subLogs": [],
+      "duration": 70
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']",
+        "{\"id\":\"3\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 1372
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=com.adidas.app:id/productCategoryClickableArea, using=id}"
+      ],
+      "result": "id: 4",
+      "subLogs": [],
+      "duration": 62
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.id: com.adidas.app:id/productCategoryClickableArea",
+        "{\"id\":\"4\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 107
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=com.adidas.app:id/productCategoryClickableArea, using=id}"
+      ],
+      "result": "[id: 5]",
+      "subLogs": [],
+      "duration": 88
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=com.adidas.app:id/productCategoryClickableArea, using=id}"
+      ],
+      "result": "id: 6",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: com.adidas.app:id/productCategoryClickableArea",
+        "{\"id\":\"6\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 3065
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.TextView[@text='MEN'], using=xpath}"
+      ],
+      "result": "id: 7",
+      "subLogs": [],
+      "duration": 1022
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //android.widget.TextView[@text='MEN']",
+        "{\"id\":\"7\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 140
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+      ],
+      "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 757 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 8f56bd4c-bc53-4bca-9e59-c484989cddbf\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Originals']}",
+      "subLogs": [],
+      "duration": 758
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.TextView[@text='Originals'], using=xpath}"
+      ],
+      "result": "id: 8",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //android.widget.TextView[@text='Originals']",
+        "{\"id\":\"8\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 223
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view'], using=xpath}"
+      ],
+      "result": "[id: 9, id: 10, id: 11, id: 12]",
+      "subLogs": [],
+      "duration": 124
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view']",
+        "{\"using\":\"xpath\",\"id\":\"9\",\"value\":\"//android.widget.TextView[@text='%s']\"}"
+      ],
+      "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 76 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 8f56bd4c-bc53-4bca-9e59-c484989cddbf\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='%s']}",
+      "subLogs": [],
+      "duration": 76
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //android.widget.TextView[@text='%s']",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 76 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 8f56bd4c-bc53-4bca-9e59-c484989cddbf\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='%s']}",
+      "subLogs": [],
+      "duration": -1199325155
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: &lt;true&gt;\n     Actual: was &lt;true&gt;",
+      "type": "Pass",
+      "screenshot": "../img/testAdidas_t83gwrx7jcrl29458.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 76 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 8f56bd4c-bc53-4bca-9e59-c484989cddbf\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='%s']}",
+      "type": "Fail",
+      "screenshot": "../img/testAdidas_yxq0ssxqwoaj29459.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 76 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 8f56bd4c-bc53-4bca-9e59-c484989cddbf\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='%s']}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:198)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElementByXPath(RemoteWebElement.java:295)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:194)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.findElement(QAFExtendedWebElement.java:409)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:286)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)\r\n\tat com.adidas.pages.Searchproducts.verfiyingSearchProducts(Searchproducts.java:37)\r\n\tat com.adidas.script.AdidasTest.testAdidas(AdidasTest.java:29)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

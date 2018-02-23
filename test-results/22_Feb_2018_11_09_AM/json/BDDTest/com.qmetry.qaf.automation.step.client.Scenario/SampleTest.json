@@ -1,0 +1,55 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "When click on search icon",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And searchproduct by gender as a \"MEN\"",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And searchproduct by purpose as a \"Originals\"",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When click on search icon :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And searchproduct by gender as a \"MEN\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And searchproduct by purpose as a \"Originals\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: When click on search icon@scenarios/suite1.bdd#8 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .When click on search icon(scenarios/suite1.bdd:8)\r\n"
+}

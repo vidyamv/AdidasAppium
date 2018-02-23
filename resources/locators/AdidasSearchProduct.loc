@@ -1,0 +1,1 @@
+btn.searchproduct = {\"locator\":\"//android.widget.EditText[@resource-id='com.adidas.app:id/search_field']\"}

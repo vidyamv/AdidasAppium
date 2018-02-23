@@ -1,0 +1,99 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 826
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 1409
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=com.adidas.app:id/productCategoryClickableArea, using=id}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 221
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.id: com.adidas.app:id/productCategoryClickableArea",
+        "{\"id\":\"2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 370
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=com.adidas.app:id/productCategoryClickableArea, using=id}"
+      ],
+      "result": "[id: 3]",
+      "subLogs": [],
+      "duration": 335
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=com.adidas.app:id/productCategoryClickableArea, using=id}"
+      ],
+      "result": "id: 4",
+      "subLogs": [],
+      "duration": 354
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: com.adidas.app:id/productCategoryClickableArea",
+        "{\"id\":\"4\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 826
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//android.widget.TextView[@text='MEN'], using=xpath}"
+      ],
+      "result": "id: 5",
+      "subLogs": [],
+      "duration": 1847
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //android.widget.TextView[@text='MEN']",
+        "{\"id\":\"5\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 3285
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: &lt;true&gt;\n     Actual: was &lt;true&gt;",
+      "type": "Pass",
+      "screenshot": "../img/testAdidas_1iwhvcdkn55w62272.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

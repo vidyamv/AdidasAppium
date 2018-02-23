@@ -1,0 +1,4 @@
+main.category.prodsearchpage = {\"locator\":\"id=com.adidas.app:id/productCategoryClickableArea\",\"desc\":\"category on searchpage\"}
+sub.category.searchpage = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"subcategory on searchpage\"}
+purpose.searchpage = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"purpose on searchpage\"}
+prod.search = {\"locator\":\"xpath=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view']\",\"desc\":\"product of shoe\"}

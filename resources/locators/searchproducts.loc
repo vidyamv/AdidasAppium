@@ -1,0 +1,6 @@
+prod.lists = {\"locator\":\"xpath=//android.widget.RelativeLayout[@resource-id='com.adidas.app:id/root_view']\",\"desc\":\"list of prodcuts\"}
+prod.name = {\"locator\":\"xpath=//android.widget.TextView[@resource-id='com.adidas.app:id/product_name_text']\",\"desc\":\"name of the product\"}
+prod.price = {\"locator\":\"xpath=//android.widget.TextView[@resource-id='com.adidas.app:id/product_name_price']\",\"desc\":\"price of the product\"}
+btn.buy = {\"locator\":\"id=com.adidas.app:id/layout_product_info\",\"desc\":\"product buy button\"}
+prod.size = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"size of the product\"}
+add.to.cart.prod = {\"locator\":\"xpath=//android.widget.ImageButton [@resource-id='com.adidas.app:id/button_add_to_bag']\",\"desc\":\"adding product to cart\"}

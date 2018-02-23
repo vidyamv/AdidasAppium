@@ -1,0 +1,24 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=com.adidas.app:id/intro_screen_get_started, using=id}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 1079
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: com.adidas.app:id/intro_screen_get_started",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "clickElement:true",
+      "subLogs": [],
+      "duration": 3511
+    }
+  ],
+  "checkPoints": []
+}

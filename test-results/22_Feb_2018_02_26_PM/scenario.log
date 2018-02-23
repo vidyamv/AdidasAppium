@@ -1,0 +1,20 @@
+14:26:57 scenario.file.loc[Ljava.lang.String;@3d8314f0
+14:26:57 loading BDD file: scenarios/TestAdidas.bdd
+14:26:57 total test found: 1
+14:26:57 
+
+Executing scenario: TestAdidas - end to end
+14:26:57 pkg: com.qmetry.qaf.automation.step
+14:26:57 pkg: com.adidas
+14:26:57 Found duplicate step to load [] with [lower] prority then []
+14:26:57 Invoking Teststep: When click on search icon
+14:27:19 Completed Teststep: When click on search icon
+14:27:19 Invoking Teststep: And searchproduct by gender as a "MEN" with arguments: [MEN]
+14:27:23 Completed Teststep: And searchproduct by gender as a "MEN" with arguments: [MEN]
+14:27:23 Invoking Teststep: And searchproduct by purpose as a "Originals" with arguments: [Originals]
+14:27:27 Completed Teststep: And searchproduct by purpose as a "Originals" with arguments: [Originals]
+14:27:27 Invoking Teststep: And select the product
+14:27:27 Failure Teststep: And select the product
+com.qmetry.qaf.automation.step.NotYetImplementedException: Not Yet Implemented!...
+14:27:27 Completed Teststep: And select the product
+14:27:27 Competed scenario: TestAdidas with status FAILURE

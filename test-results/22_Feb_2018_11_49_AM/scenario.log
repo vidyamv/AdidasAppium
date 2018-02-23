@@ -1,0 +1,42 @@
+11:16:58 Invoking Teststep: User is on homepage
+11:17:15 Completed Teststep: User is on homepage
+11:17:18 Invoking Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:17:23 Completed Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:17:23 Invoking Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:17:25 Completed Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:22:19 Invoking Teststep: User is on homepage
+11:22:25 Completed Teststep: User is on homepage
+11:22:28 Invoking Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:22:35 Completed Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:22:35 Invoking Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:22:40 Completed Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:23:58 Invoking Teststep: User is on homepage
+11:24:08 Completed Teststep: User is on homepage
+11:24:11 Invoking Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:24:14 Completed Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:24:14 Invoking Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:24:17 Completed Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:25:54 Invoking Teststep: User is on homepage
+11:26:03 Completed Teststep: User is on homepage
+11:26:06 Invoking Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:26:09 Completed Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:26:09 Invoking Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:26:11 Completed Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:28:34 Invoking Teststep: User is on homepage
+11:28:45 Completed Teststep: User is on homepage
+11:28:48 Invoking Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:28:54 Completed Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:28:54 Invoking Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:28:56 Completed Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:30:17 Invoking Teststep: User is on homepage
+11:30:22 Completed Teststep: User is on homepage
+11:30:28 Invoking Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:30:31 Completed Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:30:31 Invoking Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:30:33 Completed Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:36:21 Invoking Teststep: User is on homepage
+11:36:31 Completed Teststep: User is on homepage
+11:36:33 Invoking Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:36:36 Completed Teststep: searchproduct by gender as a {0} with arguments: [MEN]
+11:36:36 Invoking Teststep: searchproduct by purpose as a {0} with arguments: [Originals]
+11:36:40 Completed Teststep: searchproduct by purpose as a {0} with arguments: [Originals]

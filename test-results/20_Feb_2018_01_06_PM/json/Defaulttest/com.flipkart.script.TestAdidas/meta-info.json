@@ -1,0 +1,67 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testAdidas",
+        "sign": "TestAdidas.testAdidas()[pri:0, instance:com.flipkart.script.TestAdidas@68878f6d]"
+      },
+      "dependsOn": [],
+      "startTime": 1519134034468,
+      "duration": 30088,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testAdidas",
+        "resultFileName": "testAdidaspTuSDxeEOA",
+        "sign": "TestAdidas.testAdidas()[pri:0, instance:com.flipkart.script.TestAdidas@2f01783a]"
+      },
+      "dependsOn": [],
+      "startTime": 1519134135300,
+      "duration": 4647,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testAdidas",
+        "resultFileName": "testAdidasDsbSepLVfV",
+        "sign": "TestAdidas.testAdidas()[pri:0, instance:com.flipkart.script.TestAdidas@2f01783a]"
+      },
+      "dependsOn": [],
+      "startTime": 1519134174906,
+      "duration": 9047,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testAdidas",
+        "resultFileName": "testAdidasgQrpWKWaEn",
+        "sign": "TestAdidas.testAdidas()[pri:0, instance:com.flipkart.script.TestAdidas@2f01783a]"
+      },
+      "dependsOn": [],
+      "startTime": 1519134202602,
+      "duration": 9135,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

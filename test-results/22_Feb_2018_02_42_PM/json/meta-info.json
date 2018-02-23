@@ -1,0 +1,13 @@
+{
+  "name": "adidas.scenarios.TestAdidas.bdd",
+  "status": "fail",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "startTime": 1519290773353,
+  "endTime": 1519290851589
+}

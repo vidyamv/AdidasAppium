@@ -1,0 +1,19 @@
+10:13:49 scenario.file.loc[Ljava.lang.String;@3d8314f0
+10:13:49 loading BDD file: scenarios/suite1.bdd
+10:13:49 total test found: 1
+10:13:49 
+
+Executing scenario: SampleTest - Sample Test Scenario
+10:13:49 pkg: com.qmetry.qaf.automation.step
+10:13:49 pkg: com.flipkart
+10:13:49 Found duplicate step to load [] with [lower] prority then []
+10:13:50 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="click on search icon")
+public void clickOnSearchIcon(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+10:13:50 Competed scenario: SampleTest with status FAILURE

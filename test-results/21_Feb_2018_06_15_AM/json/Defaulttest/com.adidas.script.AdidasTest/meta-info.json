@@ -1,0 +1,83 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testAdidas",
+        "sign": "AdidasTest.testAdidas()[pri:0, instance:com.adidas.script.AdidasTest@2f01783a]"
+      },
+      "dependsOn": [],
+      "startTime": 1519200663601,
+      "duration": 39734,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testAdidas",
+        "resultFileName": "testAdidasGpJamosEaS",
+        "sign": "AdidasTest.testAdidas()[pri:0, instance:com.adidas.script.AdidasTest@2f01783a]"
+      },
+      "dependsOn": [],
+      "startTime": 1519200860277,
+      "duration": 38747,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testAdidas",
+        "resultFileName": "testAdidassJJBoPBrAu",
+        "sign": "AdidasTest.testAdidas()[pri:0, instance:com.adidas.script.AdidasTest@2f01783a]"
+      },
+      "dependsOn": [],
+      "startTime": 1519201472906,
+      "duration": 15852,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testAdidas",
+        "resultFileName": "testAdidasECaeOJBuqS",
+        "sign": "AdidasTest.testAdidas()[pri:0, instance:com.adidas.script.AdidasTest@2f01783a]"
+      },
+      "dependsOn": [],
+      "startTime": 1519201538219,
+      "duration": 37384,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testAdidas",
+        "resultFileName": "testAdidasWPvaINTMxV",
+        "sign": "AdidasTest.testAdidas()[pri:0, instance:com.adidas.script.AdidasTest@2f01783a]"
+      },
+      "dependsOn": [],
+      "startTime": 1519201639922,
+      "duration": 37415,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

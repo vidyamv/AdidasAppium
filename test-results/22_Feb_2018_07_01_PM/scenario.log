@@ -1,0 +1,32 @@
+19:01:07 scenario.file.loc[Ljava.lang.String;@3d8314f0
+19:01:07 loading BDD file: scenarios/TestAdidas.bdd
+19:01:07 total test found: 1
+19:01:07 
+
+Executing scenario: TestAdidas - end to end
+19:01:07 pkg: com.qmetry.qaf.automation.step
+19:01:07 pkg: com.adidas
+19:01:07 Found duplicate step to load [] with [lower] prority then []
+19:01:07 Invoking Teststep: Given User is on homepage
+19:01:45 Completed Teststep: Given User is on homepage
+19:01:45 Invoking Teststep: When click on search icon
+19:01:57 Completed Teststep: When click on search icon
+19:01:57 Invoking Teststep: And searchproduct by gender as a "MEN" with arguments: [MEN]
+19:02:05 Completed Teststep: And searchproduct by gender as a "MEN" with arguments: [MEN]
+19:02:05 Invoking Teststep: And searchproduct by purpose as a "Originals" with arguments: [Originals]
+19:02:11 Completed Teststep: And searchproduct by purpose as a "Originals" with arguments: [Originals]
+19:02:11 Invoking Teststep: And select the "1" from productlist with arguments: [1]
+19:02:17 Completed Teststep: And select the "1" from productlist with arguments: [1]
+19:02:17 Invoking Teststep: Then user should see the selected product details
+19:02:20 Completed Teststep: Then user should see the selected product details
+19:02:20 Invoking Teststep: And click on buy button
+19:02:21 Completed Teststep: And click on buy button
+19:02:21 Invoking Teststep: And select the size of the product as"8" with arguments: [8]
+19:02:23 Completed Teststep: And select the size of the product as"8" with arguments: [8]
+19:02:23 Invoking Teststep: And click on Add to cart bag
+19:02:24 Completed Teststep: And click on Add to cart bag
+19:02:24 Invoking Teststep: And click on add to cart icon
+19:02:27 Completed Teststep: And click on add to cart icon
+19:02:27 Invoking Teststep: Then verify that searchprod is added to cart
+19:02:29 Completed Teststep: Then verify that searchprod is added to cart
+19:02:29 Competed scenario: TestAdidas with status SUCESS

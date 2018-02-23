@@ -1,0 +1,798 @@
+[main] 11:07:46,563 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 11:07:46,568 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 11:07:46,568 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 11:07:46,569 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 11:07:46,570 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 11:07:46,677 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[main] 11:07:46,695 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: C:\Users\vidya.gowda\Desktop\qmetryproject\adidas\resources. Found property files to load: 3
+[main] 11:07:46,767 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 11:07:46,767 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 11:07:46,768 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 11:07:46,768 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 11:07:46,768 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 11:07:46,768 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 11:07:46,768 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 11:07:46,768 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 11:07:46,768 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 11:07:46,768 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 11:07:46,769 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 11:07:46,769 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 11:07:46,769 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 11:07:46,770 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 11:07:46,771 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 11:07:46,771 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 11:07:46,771 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 11:07:46,771 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 11:07:46,772 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 11:07:46,772 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 11:07:46,772 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 11:07:46,775 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: C:\Users\vidya.gowda\Desktop\qmetryproject\adidas\resources. Found property files to load: 0
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 11:07:46,776 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 11:07:46,777 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 11:07:46,777 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 11:07:46,777 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 11:07:46,777 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 11:07:46,777 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 11:07:46,777 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 11:07:46,777 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 11:07:46,777 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 11:07:46,987 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 11:07:46,990 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 11:07:46,990 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 11:07:46,992 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 11:07:46,993 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.ui is test:false
+[main] 11:07:46,993 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 11:07:46,994 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 11:07:46,997 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 11:07:46,998 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.ui is test:false
+[main] 11:07:46,998 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 11:07:47,011 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 11:07:47,011 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 11:07:47,011 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 11:07:47,016 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 11:07:47,016 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: SampleTest
+[main] 11:07:47,263 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] Initializing Driver...browser_str:appiumDriver,base_url:http://localhost:4723/wd/hub,sel_server:localhost,port:4723
+[main] 11:07:47,277 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] Driver: appiumDriver
+[Forwarding newSession on session null to remote] 11:07:47,830 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding newSession on session null to remote] 11:07:47,838 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding newSession on session null to remote] 11:07:47,840 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding newSession on session null to remote] 11:07:47,855 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding newSession on session null to remote] 11:07:47,856 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:4723
+[Forwarding newSession on session null to remote] 11:07:47,857 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:4723
+[Forwarding newSession on session null to remote] 11:07:47,858 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:59374<->127.0.0.1:4723
+[Forwarding newSession on session null to remote] 11:07:47,858 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding newSession on session null to remote] 11:07:47,858 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session HTTP/1.1
+[Forwarding newSession on session null to remote] 11:07:47,858 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 11:07:47,859 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 360
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 360[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:47,860 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:47,861 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"desiredCapabilities":{"appPackage":"com.adidas.app","appActivity":"com.adidas.app.MainActivity","browser_name":"","appium-version":"4.1.2","automationName":"Appium","takesScreenshot":true,"javascriptEnabled":"true","driver.class":"io.appium.java_client.android.AndroidDriver","platformName":"Android","deviceName":"emulator-5554","cssSelectorsEnabled":true}}"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 1057[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"421-RAy2VMZ+G6HexqOTqnGOd50IT7E"[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:37:58 GMT[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,877 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,878 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding newSession on session null to remote] 11:07:58,878 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":"true","databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.adidas.app","appActivity":"com.adidas.app.MainActivity","browser_name":"","appium-version":"4.1.2","automationName":"Appium","takesScreenshot":true,"javascriptEnabled":"true","driver.class":"io.appium.java_client.android.AndroidDriver","platformName":"Android","deviceName":"emulator-5554","cssSelectorsEnabled":true},"appPackage":"com.adidas.app","appActivity":"com.adidas.app.MainActivity","browser_name":"","appium-version":"4.1.2","automationName":"Appium","driver.class":"io.appium.java_client.android.AndroidDriver","platformName":"Android","deviceName":"emulator-5554","cssSelectorsEnabled":true,"deviceUDID":"emulator-5554","platformVersion":"7.0","deviceScreenSize":"720x1280","deviceModel":"Android SDK built for x86","deviceManufacturer":"unknown"},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding newSession on session null to remote] 11:07:58,880 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding newSession on session null to remote] 11:07:58,880 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding newSession on session null to remote] 11:07:58,880 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding newSession on session null to remote] 11:07:58,881 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding newSession on session null to remote] 11:07:58,881 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding newSession on session null to remote] 11:07:58,881 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding newSession on session null to remote] 11:07:58,881 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 11:07:58,881 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 1057
+[Forwarding newSession on session null to remote] 11:07:58,881 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"421-RAy2VMZ+G6HexqOTqnGOd50IT7E"
+[Forwarding newSession on session null to remote] 11:07:58,881 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:37:58 GMT
+[Forwarding newSession on session null to remote] 11:07:58,881 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding newSession on session null to remote] 11:07:58,884 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 11:07:58,888 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 11:07:58,889 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:07:58,915 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']"}
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,916 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,916 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,916 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,916 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,916 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 104
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 104[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,917 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:07:58,918 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search']","using":"xpath"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,548 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,548 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 87[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"57-Tkh1uLEI1x7Yua89GL8FhmMG8NE"[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:01 GMT[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"1"},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 87
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"57-Tkh1uLEI1x7Yua89GL8FhmMG8NE"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:01 GMT
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,549 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,550 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,550 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:01,552 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'], using=xpath}] Result: id: 1
+[main] 11:08:01,552 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'] parameters: {"id":"1"}
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,553 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,553 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,553 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,553 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,554 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element/1/click HTTP/1.1
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element/1/click HTTP/1.1
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 10
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element/1/click HTTP/1.1[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,555 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 10[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:01,556 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"id":"1"}"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 76[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"4c-ENgZR3mKwy5/EkaTp3r4ZBBwOmM"[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:02 GMT[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":true,"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 76
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"4c-ENgZR3mKwy5/EkaTp3r4ZBBwOmM"
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:02 GMT
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,925 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,926 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,926 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding clickElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,926 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:02,927 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.xpath: //android.widget.FrameLayout[@resource-id='com.adidas.app:id/action_search'] param-2: {"id":"1"}] Result: clickElement:true
+[main] 11:08:02,949 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.adidas.app:id/productCategoryClickableArea"}
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,950 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,950 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,950 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,950 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,950 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 71
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:02,951 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.adidas.app:id/productCategoryClickableArea","using":"id"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,012 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,012 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:03 GMT[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,013 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,014 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,014 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,014 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,014 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,014 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:03 GMT
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,014 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,014 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,014 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:03,014 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:03,021 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.adidas.app:id/productCategoryClickableArea, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]
+Session ID: ec979216-5f2b-4a6d-9b22-09f698712047
+*** Element info: {Using=id, value=com.adidas.app:id/productCategoryClickableArea}
+[main] 11:08:04,022 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.adidas.app:id/productCategoryClickableArea"}
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,023 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,023 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,023 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,023 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,023 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 71
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,024 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.adidas.app:id/productCategoryClickableArea","using":"id"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:04 GMT[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,058 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:04 GMT
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,060 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,061 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:04,061 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:04,062 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.adidas.app:id/productCategoryClickableArea, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]
+Session ID: ec979216-5f2b-4a6d-9b22-09f698712047
+*** Element info: {Using=id, value=com.adidas.app:id/productCategoryClickableArea}
+[main] 11:08:05,062 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.adidas.app:id/productCategoryClickableArea"}
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,063 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,063 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,063 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,064 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,064 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 71
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,065 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.adidas.app:id/productCategoryClickableArea","using":"id"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,185 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,185 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:05 GMT[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:05 GMT
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,186 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,187 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:05,187 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:05,188 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.adidas.app:id/productCategoryClickableArea, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 125 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]
+Session ID: ec979216-5f2b-4a6d-9b22-09f698712047
+*** Element info: {Using=id, value=com.adidas.app:id/productCategoryClickableArea}
+[main] 11:08:06,189 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.adidas.app:id/productCategoryClickableArea"}
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,190 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,190 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,190 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,190 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,190 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 71
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,191 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.adidas.app:id/productCategoryClickableArea","using":"id"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:06 GMT[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,233 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:06 GMT
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:06,234 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:06,235 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.adidas.app:id/productCategoryClickableArea, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 46 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]
+Session ID: ec979216-5f2b-4a6d-9b22-09f698712047
+*** Element info: {Using=id, value=com.adidas.app:id/productCategoryClickableArea}
+[main] 11:08:07,236 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.adidas.app:id/productCategoryClickableArea"}
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,236 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,236 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,236 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,237 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,237 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 71
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,238 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.adidas.app:id/productCategoryClickableArea","using":"id"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,282 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:07 GMT[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:07 GMT
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:07,283 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:07,284 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.adidas.app:id/productCategoryClickableArea, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]
+Session ID: ec979216-5f2b-4a6d-9b22-09f698712047
+*** Element info: {Using=id, value=com.adidas.app:id/productCategoryClickableArea}
+[main] 11:08:08,285 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.adidas.app:id/productCategoryClickableArea"}
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,285 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,285 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,285 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,286 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,286 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 71
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,287 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.adidas.app:id/productCategoryClickableArea","using":"id"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:08 GMT[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:08 GMT
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,402 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,403 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:08,403 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:08,404 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.adidas.app:id/productCategoryClickableArea, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 118 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]
+Session ID: ec979216-5f2b-4a6d-9b22-09f698712047
+*** Element info: {Using=id, value=com.adidas.app:id/productCategoryClickableArea}
+[main] 11:08:09,404 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.adidas.app:id/productCategoryClickableArea"}
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,404 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,405 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,405 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,405 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,405 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 71
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,407 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.adidas.app:id/productCategoryClickableArea","using":"id"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:09 GMT[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:09 GMT
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:09,471 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:09,472 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.adidas.app:id/productCategoryClickableArea, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]
+Session ID: ec979216-5f2b-4a6d-9b22-09f698712047
+*** Element info: {Using=id, value=com.adidas.app:id/productCategoryClickableArea}
+[main] 11:08:10,474 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.adidas.app:id/productCategoryClickableArea"}
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,474 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,474 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,474 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,475 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,475 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 71
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,476 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.adidas.app:id/productCategoryClickableArea","using":"id"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,528 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,528 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,528 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,528 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,528 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,528 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,528 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,528 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:10 GMT[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:10 GMT
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:10,529 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:10,530 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.adidas.app:id/productCategoryClickableArea, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 56 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]
+Session ID: ec979216-5f2b-4a6d-9b22-09f698712047
+*** Element info: {Using=id, value=com.adidas.app:id/productCategoryClickableArea}
+[main] 11:08:11,531 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"id","value":"com.adidas.app:id/productCategoryClickableArea"}
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,532 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,532 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,532 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,532 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,532 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 71
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/ec979216-5f2b-4a6d-9b22-09f698712047/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_144)[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,533 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"com.adidas.app:id/productCategoryClickableArea","using":"id"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 164[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Thu, 22 Feb 2018 05:38:11 GMT[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":7,"value":{"message":"An element could not be located on the page using the given search parameters."},"sessionId":"ec979216-5f2b-4a6d-9b22-09f698712047"}"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 164
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"a4-NJgf/CbQBNXTn3ot3UcGFAOjmPQ"
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Thu, 22 Feb 2018 05:38:11 GMT
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,579 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,580 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session ec979216-5f2b-4a6d-9b22-09f698712047 to remote] 11:08:11,580 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 11:08:11,581 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.adidas.app:id/productCategoryClickableArea, using=id}] Result: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 49 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11548', ip: '192.168.119.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{appPackage=com.adidas.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.adidas.app.MainActivity, browser_name=, desired={appPackage=com.adidas.app, appActivity=com.adidas.app.MainActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]
+Session ID: ec979216-5f2b-4a6d-9b22-09f698712047
+*** Element info: {Using=id, value=com.adidas.app:id/productCategoryClickableArea}

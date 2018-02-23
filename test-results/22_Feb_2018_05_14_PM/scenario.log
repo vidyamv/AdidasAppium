@@ -1,0 +1,24 @@
+17:14:59 scenario.file.loc[Ljava.lang.String;@3d8314f0
+17:14:59 loading BDD file: scenarios/TestAdidas.bdd
+17:14:59 total test found: 1
+17:14:59 
+
+Executing scenario: TestAdidas - end to end
+17:14:59 pkg: com.qmetry.qaf.automation.step
+17:14:59 pkg: com.adidas
+17:14:59 Found duplicate step to load [] with [lower] prority then []
+17:14:59 Invoking Teststep: When click on search icon
+17:15:25 Completed Teststep: When click on search icon
+17:15:25 Invoking Teststep: And searchproduct by gender as a "MEN" with arguments: [MEN]
+17:15:30 Completed Teststep: And searchproduct by gender as a "MEN" with arguments: [MEN]
+17:15:30 Invoking Teststep: And searchproduct by purpose as a "Originals" with arguments: [Originals]
+17:15:37 Completed Teststep: And searchproduct by purpose as a "Originals" with arguments: [Originals]
+17:15:37 Invoking Teststep: And select the "1" from productlist with arguments: [1]
+17:15:41 Completed Teststep: And select the "1" from productlist with arguments: [1]
+17:15:41 Invoking Teststep: And click on buy button
+17:15:44 Completed Teststep: And click on buy button
+17:15:44 Invoking Teststep: And select the size of the product as"8" with arguments: [8]
+17:15:46 Completed Teststep: And select the size of the product as"8" with arguments: [8]
+17:15:46 Invoking Teststep: And click on Add to cart bag
+17:15:47 Completed Teststep: And click on Add to cart bag
+17:15:47 Competed scenario: TestAdidas with status SUCESS

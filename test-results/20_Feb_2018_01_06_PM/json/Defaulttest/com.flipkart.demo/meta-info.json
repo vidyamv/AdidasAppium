@@ -1,0 +1,67 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "test",
+        "sign": "demo.test()[pri:0, instance:com.flipkart.demo@74294adb]"
+      },
+      "dependsOn": [],
+      "startTime": 1519131977050,
+      "duration": 34093,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "test",
+        "resultFileName": "testCbYhvPQNVn",
+        "sign": "demo.test()[pri:0, instance:com.flipkart.demo@1e04fa0a]"
+      },
+      "dependsOn": [],
+      "startTime": 1519133033250,
+      "duration": 10,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "test",
+        "resultFileName": "testKRfWvmnhyW",
+        "sign": "demo.test()[pri:0, instance:com.flipkart.demo@2eea88a1]"
+      },
+      "dependsOn": [],
+      "startTime": 1519133154144,
+      "duration": 20,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "test",
+        "resultFileName": "testiUEDkuozfl",
+        "sign": "demo.test()[pri:0, instance:com.flipkart.demo@2eea88a1]"
+      },
+      "dependsOn": [],
+      "startTime": 1519133203885,
+      "duration": 5023,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

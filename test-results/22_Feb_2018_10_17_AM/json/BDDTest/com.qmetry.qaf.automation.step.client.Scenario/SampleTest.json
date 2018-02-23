@@ -1,0 +1,71 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "Given navigate to url of application",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When click on search icon",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And searchproduct by gender as a \"Men\"",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And searchproduct by purpose as a \"originals\"",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given navigate to url of application :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on search icon",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And searchproduct by gender as a \"Men\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And searchproduct by purpose as a \"originals\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Given navigate to url of application@scenarios/suite1.bdd#7 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .Given navigate to url of application(scenarios/suite1.bdd:7)\r\n"
+}

@@ -1,0 +1,2 @@
+adidas.getstarted = {\"locator\":\"id=com.adidas.app:id/intro_screen_get_started\",\"desc\":\"getstarted on homepage\"}
+btn.adidas.skipsignin = {\"locator\":\"id=com.adidas.app:id/close_button\",\"desc\":\"skip signin\"}
